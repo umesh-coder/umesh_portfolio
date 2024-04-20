@@ -30,14 +30,14 @@ import profileData from '@data/profile.data';
 })
 export class AboutPage {
   metaService = inject(MetaService)
-  constructor(){
+  constructor() {
     this.metaService.setMetaTags(
       `About - ${profileData.name}`,
       'Dive into a curated space to learn more about the person behind the name',
       ['bio', 'biography', 'information', 'about', 'contact', 'detail']
-      )
+    )
   }
-  public aboutDetails =  [
+  public aboutDetails = [
     {
       title: 'What I Do',
       desc: `I've worked on a variety of projects, ranging from
@@ -70,23 +70,23 @@ export class AboutPage {
   public contactInfo = [
     {
       title: 'Address',
-      desc: `BLK 2 LOT 10 Cameron St. Princetown Subd. Bagumbong Caloocan City, Barangay 171, Metro Manila, Philippines`,
+      desc: 'Kapil Nagar, Nari Road, Nagpur City, India',
       link: 'https://maps.app.goo.gl/dT2aE2RxeQTEA7ne7'
     },
     {
       title: 'Mobile Number',
-      desc: '+639092884082',
-      link: 'tel:+639092884082'
+      desc: '+91-92845800065',
+      link: 'tel:+91-92845800065'
     },
     {
       title: 'Email',
-      desc: 'marc@kevinflor.es',
-      link: 'mailto:marc@kevinflor.es'
+      desc: 'umeshshelare@gmail.com',
+      link: 'mailto:umeshshelare@gmail.com'
     },
     {
       title: 'Freelance',
       desc: 'Available',
-      link: 'mailto:marc@kevinflor.es'
+      link: 'mailto:umeshshelare@gmail.com'
     },
   ]
 }

@@ -19,11 +19,9 @@ import { ProjectPage } from '@pages/project/project.page';
       <intro/>
       <expertise-area/>
       <language-tools/>
-      <in-work/>
-      <about/>
+      <about/>  
       <project-page/>
-      
-    }@placeholder {
+      }@placeholder {
       <loader/>
     }
   `

@@ -7,19 +7,19 @@ const socialLinkData: SocialLinkSchema[] = [
   {
     name: 'Github',
     path: github,
-    link: 'https://github.com/marckevinflores',
+    link: 'https://github.com/umesh-coder',
     color: '#c3c3c3',
   },
   {
     name: 'LinkedIn',
     path: linkedin,
-    link: 'https://linkedin.com/in/marckevinflores',
+    link: 'https://www.linkedin.com/in/umeshs09/',
     color: '#1469C7',
   },
   {
     name: 'Message',
     path: envelope,
-    link: 'mailto:marc@kevinflor.es?subject=Hi Marc Kevin!',
+    link: 'mailto:umeshshelare@gmail.com?subject=Hi Umesh Shelare!',
     color: '#e74c3c',
   },
   {
