@@ -24,13 +24,14 @@ import { Subscription, interval } from 'rxjs';
     >
       <div class="flex flex-row gap-3">
         <logo/>
-        <span>{{ profile().name }}</span>
+        <!-- name -->
+        <!-- <span>{{ profile().name }}</span> -->
       </div>
         <div class="flex items-center gap-1">
           <icon
           [path]="clockIcon"
           [size]="20"
-        /> <span>{{ currentTime() }} (PHT GMT+8)</span></div>
+        /> <span>{{ currentTime() }} </span></div>
 
       <social-link/>
     </div>

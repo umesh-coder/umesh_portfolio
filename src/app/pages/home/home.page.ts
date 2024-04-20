@@ -23,7 +23,6 @@ import { ProjectPage } from '@pages/project/project.page';
       <about/>
       <project-page/>
       
-      
     }@placeholder {
       <loader/>
     }
