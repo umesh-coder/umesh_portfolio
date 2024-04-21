@@ -71,12 +71,12 @@ export class AboutPage {
     {
       title: 'Address',
       desc: 'Kapil Nagar, Nari Road, Nagpur City, India',
-      link: 'https://maps.app.goo.gl/dT2aE2RxeQTEA7ne7'
+      link: 'https://maps.app.goo.gl/HsPxp7ENvM89aXhw8'
     },
     {
       title: 'Mobile Number',
-      desc: '+91-92845800065',
-      link: 'tel:+91-92845800065'
+      desc: '+91-9284580065',
+      link: 'tel:+91-9284580065'
     },
     {
       title: 'Email',
