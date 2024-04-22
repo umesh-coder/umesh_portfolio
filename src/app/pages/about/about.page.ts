@@ -8,9 +8,9 @@ import profileData from '@data/profile.data';
   template: `
   <section class="flex flex-col max-w-screen-lg justify-between mx-auto gap-5 dark:text-gray-200 overflow-y-hidden">
   <h1 class="text-3xl font-semibold dark:text-white">About Me</h1>
-  <p class="justify-start">I'm Marc Kevin Flores, a software
+  <p class="justify-start">I'm Umesh Shelare, a software
     engineer with over
-    five years of
+    6 Months of
     experience. I specialize in turning
     ideas into polished software, blending innovation with user-friendly design. 🚀</p>
   <p *ngFor="let a of aboutDetails"><b class="dark:text-white text-black">{{a.title}}</b><br />{{a.desc}}
