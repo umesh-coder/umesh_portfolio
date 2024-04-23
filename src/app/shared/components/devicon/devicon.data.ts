@@ -909,7 +909,6 @@ export const devIcon: DevIconSchema = {
         light: '#333'
       }
     ]
-  },
-  
+  }, 
   
 }

@@ -4,7 +4,7 @@ import profileData from '@data/profile.data';
 import { ExpertiseArea } from '@pages/home/components/expertise-area/expertise-area';
 import { Intro } from '@pages/home/components/intro/intro';
 import { LanguageTools } from '@pages/home/components/language-tools/language-tools';
-import { InWork } from '@pages/home/components/in-work/in-work';
+
 import { Loader } from '@shared/components/loader/loader';
 import { AboutPage } from '@pages/about/about.page';
 import { ProjectPage } from '@pages/project/project.page';
@@ -13,7 +13,7 @@ import { ProjectPage } from '@pages/project/project.page';
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
   standalone: true,
-  imports: [ExpertiseArea, Intro, LanguageTools, InWork, Loader ,AboutPage,ProjectPage ],
+  imports: [ExpertiseArea, Intro, LanguageTools, Loader ,AboutPage,ProjectPage ],
   template: `
     @defer(on immediate){
       <intro/>

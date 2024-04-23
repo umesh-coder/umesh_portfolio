@@ -35,4 +35,4 @@ export type TechToolName =
   // | 'Jest'
   // | 'Strapi'
   | 'Angular 17'
-  
+
