@@ -29,10 +29,10 @@ export class ManSorrow {
   isDark = computed(() => this.darkModeService.isDark())
   extraPaths = [floor, sea, man, logo, plant]
 
-  get starsPath()      { return this.generatePath(stars) }
-  get moonPath()       { return this.generatePath(moon)  }
+  get starsPath() { return this.generatePath(stars) }
+  get moonPath() { return this.generatePath(moon) }
   get cloudAbovePath() { return this.generatePath(cloud) }
-  get sunPath()        { return this.generatePath(sun)   }
+  get sunPath() { return this.generatePath(sun) }
 
   generatePath(data: Array<ShapeData>): SafeHtml {
     return this.sanitizer.bypassSecurityTrustHtml(
